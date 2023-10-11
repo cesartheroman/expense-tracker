@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cesar's Expense Tracker</title>
+  <script src="App.js" type="module"></script>
+</head>
+
+<body>
+  <div class="app-container">
+    <h1>Cesar's Expense Tracker</h1>
+    <div class="tracker-container">
+      <h2>Add a New Item</h2>
+      <div class="details-container">
+        <div>
+          <label for="type-input">Type</label>
+          <input type="text" id="type-input" placeholder="Debit Card">
+
+          <label for="name-input">Name</label>
+          <input type="text" id="name-input" placeholder="Best Buy">
+
+          <label for="date-input">Date</label>
+          <input type="date" id="date-input">
+
+          <label for="amount-input">Amount</label>
+          <input type="number" id="amount-input" min="1" step="any">
+
+          <button type="button">Add Expense</button>
+        </div>
+        <div>
+          <table>
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Date</th>
+                <th>Amount</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Cash</td>
+                <td>Mickey D's</td>
+                <td>2023-10-10</td>
+                <td>$120</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
